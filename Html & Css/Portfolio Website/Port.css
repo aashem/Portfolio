@@ -1,0 +1,76 @@
+body {
+  
+  background-color: gray;
+}
+#profilepic {
+  margin-top: -50px;
+  margin-right: -80px;
+  width: 20%;
+  float: right;
+}
+
+.about {
+  box-shadow: 0px 0px 96px 12px rgba(0,0,0,0.75); 
+  font-size: 25px;
+  color: white;
+  background-color: #555;
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 100px;
+  }
+
+.line {
+  border: 5px solid;
+  border-radius: 50px;
+  width: 70%;
+}
+
+.portfolio {
+  box-shadow: 0px 0px 96px 12px rgba(0,0,0,0.75);
+  margin: auto;
+  background-color: #111;
+  width: 60%;
+}
+
+ul.grid {
+  list-style: none;
+  font-size: 0px;
+  margin-left: -2.5%;
+}
+
+ul.grid li {
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  margin: 0 2.0% 2.5% 0.1% ;
+  border: 1px dashed #ddd;
+  font-size: 16px;
+  vertical-aligment: top;
+}
+
+ul.grid li img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 0 10px;
+}
+
+ul.grid li p {
+  font-size: .9em;
+  line-height: 1.5em;
+  color: #999;
+}
+ul.grid.columns-2 li {
+  width: 47.5%;
+}
+.social {
+  color: white;
+  text-align: right;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  background-color: #554;
+}
+.social img {
+  width: 50px;
+  border-radius: 50%;
+}
